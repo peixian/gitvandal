@@ -1,0 +1,14 @@
+from scipy import misc
+import matplotlib.pyplot as plt
+import sys
+
+
+#read the image
+img = misc.imread("{}".format(sys.argv))
+#ravel the numpy array
+
+#displace each val after sampling each value
+
+#convert to github intensity (0-4) values
+
+#feed into new array, pass into gitfiti
